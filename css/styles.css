@@ -23,3 +23,29 @@
 .nav-dropdown-items .nav-item .nav-link {
     color : black !important;
 }
+
+.authenticate{
+  background: #0ae6a4;
+}
+
+.btn-primary{
+    background: #0ae6a4;
+    border: #0ae6a4;
+}
+
+.authenticate input, .authenticate textarea{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.authenticate input{
+    height: 45px;
+}
+
+.authenticate textarea{
+    height: 100px;
+}
+
+.card{
+    box-shadow: 0px 0px #888; 
+}

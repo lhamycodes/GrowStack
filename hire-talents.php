@@ -18,36 +18,50 @@
 <div class="page-wrapper flex-row align-items-center">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-5">
+            <div class="col-md-8">
                 <form id="loginForm">
-                    <div class="card p-4">
+                    <div class="card p-2" style="margin: auto 0;">
                         <div class="card-header text-center text-uppercase h4 font-weight-light">
                             <a href="index.php"><img src="img/growstack.png" alt=""></a>
                             <!-- <span style="color:#00ff00" >growstack</span> -->
-                            <br>Login                             
+                            <br><br>Make A  Request                             
                         </div>
 
                         <div id="loginMsgBox"></div>
-                        <div class="card-body py-3">
-                            <div class="form-group">
-                                <label class="form-control-label">Email Address : </label>
-                                <input type="email" name="loginEmail" required placeholder="e.g hello@growstack.com" class="form-control">
+                        <div class="card-body py-1">
+                            <div class="form-group  col-md-12" style="">
+                                <input type="text" name="logintext" required placeholder="Name of business" class="form-control">
                             </div>
 
-                            <div class="form-group">
-                                <label class="form-control-label">Password : </label>
-                                <input type="password" name="loginPass" required placeholder="e.g ***********" class="form-control">
+                            <div class="form-group col-md-6" style="float:left;">
+                                <input type="text" name="logintext" required placeholder="First Name" class="form-control">
+                            </div>
+
+                            <div class="form-group col-md-6" style="float:left;">
+                                <input type="text" name="logintext" required placeholder="Last Name" class="form-control">
+                            </div>
+
+                            <div class="form-group col-md-6" style="float:left;">
+                                <input type="text" name="logintext" required placeholder="Phone" class="form-control">
+                            </div>
+
+                            <div class="form-group col-md-6" style="float:left;">
+                                <input type="email" name="logintext" required placeholder="Email" class="form-control">
+                            </div>
+                            <div class="form-group  col-md-12" style="">
+                                <input type="text" name="logintext" required placeholder="Business location" class="form-control">
+                            </div>
+
+                            <div class="form-group  col-md-12" style="">
+                                <textarea name="logintext" required placeholder="Give a full description of what you need" class="form-control"></textarea>
                             </div>
                         </div>
 
                         <div class="card-footer">
                             <div class="row">
                                 <div class="col-6">
-                                    <button type="submit" class="btn btn-primary px-5" id="loginBtn">Login</button>
-                                </div>
-
-                                <div class="col-6 text-right">
-                                    <a href="forgot-password" class="btn hlink btn-link">Forgot password?</a>
+                                &nbsp;&nbsp;
+                                    <button type="submit" class="btn btn-primary px-5" id="loginBtn">Submit</button>
                                 </div>
                             </div>
                         </div>
