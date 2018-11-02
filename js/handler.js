@@ -67,6 +67,26 @@ function postData(dataToSend, controller) {
                         errorResetForm("addTraineeForm", controller);
                     }
                     break;
+                case "updateTraineesBtn":
+                    showAlert("updTraineesMsgBox", nType, nMsg);
+                    if(nType == "success"){
+                        redirectWindow("", 3000);
+                    }
+                    else
+                    {
+                        errorResetForm("updateTraineesForm", controller);
+                    }
+                    break;
+                case "deleteTraineeBtn":
+                    showAlert("deleteTraineesMsgBox", nType, nMsg);
+                    if(nType == "success"){
+                        redirectWindow("", 3000);
+                    }
+                    else
+                    {
+                        errorResetForm("deleteTraineesForm", controller);
+                    }
+                    break;
                 default:
                     break;
             }
@@ -146,6 +166,18 @@ $('#deleteTrainersForm').submit(function(event){
 $('#addTraineeForm').submit(function(event){
     event.preventDefault();
     postData($(this).serialize(), 'addTraineeBtn');
+});
+
+// Handles Update Trainees Form
+$('#updateTraineesForm').submit(function(event){
+    event.preventDefault();
+    postData($(this).serialize(), 'updateTraineesBtn');
+});
+
+// Handles Deleting Trainers Form
+$('#deleteTraineesForm').submit(function(event){
+    event.preventDefault();
+    postData($(this).serialize(), 'deleteTraineeBtn');
 });
 
 // Handles Logout
