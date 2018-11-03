@@ -22,7 +22,7 @@
                 <form id="loginForm">
                     <div class="card p-2" style="margin: auto 0;">
                         <div class="card-header text-center text-uppercase h4 font-weight-light">
-                            <a href="index.php"><img src="img/growstack.png" alt=""></a>
+                            <a href="index"><img src="img/growstack.png" alt=""></a>
                             <br><br>Make A  Request                             
                         </div>
 
@@ -41,11 +41,11 @@
                             </div>
 
                             <div class="form-group col-md-6" style="float:left;">
-                                <input type="text" name="logintext" required placeholder="Phone" class="form-control">
+                                <input type="text" name="phoneNumber" required placeholder="Phone" class="form-control">
                             </div>
 
                             <div class="form-group col-md-6" style="float:left;">
-                                <input type="email" name="logintext" required placeholder="Email" class="form-control">
+                                <input type="email" name="emailAddress" required placeholder="Email" class="form-control">
                             </div>
 
                             <div class="form-group  col-md-12" style="">
