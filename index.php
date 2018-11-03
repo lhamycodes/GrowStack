@@ -44,16 +44,13 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#body">Home</a></li>
-          <li><a href="#services">About Us</a></li>
+          <!-- <li><a href="#services">About Us</a></li> -->
           <!-- <li><a href="#portfolio">Portfolio</a></li> -->
           <!-- <li><a href="#team">Team</a></li> -->
           <li><a href="hire-talents.php">Hire Talents</a></li>
-          <li class="menu-has-children"><a href="">Sign Up</a>
-            <ul>
-              <li><a href="signup.php">Mentor / Trainer</a></li>
-              <!-- <li><a href="#">Trainee</a></li> -->
-            </ul>
-          </li>
+          <li><a href="signup.php">Become a Trainer</a>
+          <li><a href="signup.php">Get a Job</a>
+           </li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -65,11 +62,11 @@
   <section id="intro">
 
     <div class="intro-content">
-      <h2>Get Certified <span>World-class</span><br> Talents Quickly!</h2>
+      <h2><span>Ready-made on-demand</span><br> workforce for Businesses</h2>
       <!-- <h2>Train for Free, <span>Get a Job</span><br>Pay Later!</h2> -->
       <div>
         <a href="hire-talents.php" class="btn-get-started scrollto">Hire Talents</a>
-        <!-- <a href="#portfolio" class="btn-projects scrollto">Find out more</a> -->
+        <a href="#portfolio" class="btn-get-started scrollto">Get me a job</a>
       </div>
     </div>
 
@@ -88,19 +85,87 @@
     <!--==========================
       Services Section
     ============================-->
+    
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <h2 style="text-transform:none">Services for Hire</h2>
+          <!-- <p>Below are few of the processes we take to Break Poverty in our Communities:</p> -->
+        </div>
+
+        <div class="row" style="text-align: center;">
+
+          <div class="col-lg-4">
+            <div class="box wow fadeIn">
+              <!-- <div class="icon"><i class="fa fa-bar-chart"></i></div> -->
+              <h4 class="title"><a href="">Ushers</a></h4>
+              <!-- <p class="description">We collaborate with volunteer professionals to train and transform unskilled labour into competent and reliable talents.</p> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box wow fadeIn">
+              <!-- <div class="icon"><i class="fa fa-picture-o"></i></div> -->
+              <h4 class="title"><a href="">Cashiers</a></h4>
+              <!-- <p class="description">Our talents earn certifications of expertise recognised by partner world-class professionals bodies. <br><br> </p> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box wow fadeIn" data-wow-delay="0.2s">
+              <!-- <div class="icon"><i class="fa fa-shopping-bag"></i></div> -->
+              <h4 class="title"><a href="">Cleaners</a></h4>
+              <!-- <p class="description">We offer our best talents to businesses at a more affordable cost, within the shortest time. <br><br></p> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box wow fadeInRight" data-wow-delay="0.2s">
+              <!-- <div class="icon"><i class="fa fa-map"></i></div> -->
+              <h4 class="title"><a href="">Sales representatives</a></h4>
+              <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box wow fadeIn" data-wow-delay="0.2s">
+              <!-- <div class="icon"><i class="fa fa-shopping-bag"></i></div> -->
+              <h4 class="title"><a href="">Office clerk</a></h4>
+              <!-- <p class="description">We offer our best talents to businesses at a more affordable cost, within the shortest time. <br><br></p> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box wow fadeInRight" data-wow-delay="0.2s">
+              <!-- <div class="icon"><i class="fa fa-map"></i></div> -->
+              <h4 class="title"><a href="">Sales representatives</a></h4>
+              <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p> -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <br>
+    <br>
+    <hr>
+
     <section id="services">
       <div class="container">
         <div class="section-header">
-          <h2 style="text-transform:none">About Us</h2>
+          <h2 style="text-transform:none">How growstack works</h2>
           <!-- <p>Below are few of the processes we take to Break Poverty in our Communities:</p> -->
         </div>
 
         <div class="row">
 
+
           <div class="col-lg-4">
             <div class="box wow fadeIn">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Training</a></h4>
+              <h4 class="title"><a href="">Request for a skilled talent</a></h4>
               <p class="description">We collaborate with volunteer professionals to train and transform unskilled labour into competent and reliable talents.</p>
             </div>
           </div>
@@ -108,7 +173,7 @@
           <div class="col-lg-4">
             <div class="box wow fadeIn">
               <div class="icon"><i class="fa fa-picture-o"></i></div>
-              <h4 class="title"><a href="">Certification</a></h4>
+              <h4 class="title"><a href="">Get matched to the best talents</a></h4>
               <p class="description">Our talents earn certifications of expertise recognised by partner world-class professionals bodies. <br><br> </p>
             </div>
           </div>
@@ -116,135 +181,16 @@
           <div class="col-lg-4">
             <div class="box wow fadeIn" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Hiring</a></h4>
+              <h4 class="title"><a href="">Hire your most preferred</a></h4>
               <p class="description">We offer our best talents to businesses at a more affordable cost, within the shortest time. <br><br></p>
             </div>
           </div>
 
-          <!-- <div class="col-lg-6">
-            <div class="box wow fadeInRight" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-map"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
-            </div>
-          </div> -->
 
         </div>
 
       </div>
-    </section><!-- #services -->
-
-    <!--==========================
-      Clients Section
-    ============================-->
-
-    <!--==========================
-      Our Portfolio Section
-    ============================-->
-    <!-- <section id="portfolio" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2 style="text-transform:none">Businesses we serve</h2>
-          
-        </div>
-      </div>
-
-      <div class="container-fluid">
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/1.jpg" class="portfolio-popup">
-                <img src="img/portfolio/1.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 1</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/2.jpg" class="portfolio-popup">
-                <img src="img/portfolio/2.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 2</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/3.jpg" class="portfolio-popup">
-                <img src="img/portfolio/3.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 3</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/4.jpg" class="portfolio-popup">
-                <img src="img/portfolio/4.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 4</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/5.jpg" class="portfolio-popup">
-                <img src="img/portfolio/5.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 5</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/6.jpg" class="portfolio-popup">
-                <img src="img/portfolio/6.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 6</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/7.jpg" class="portfolio-popup">
-                <img src="img/portfolio/7.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 7</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/8.jpg" class="portfolio-popup">
-                <img src="img/portfolio/8.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 8</h2></div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- #portfolio -->
+    </section>
 
     
     <section id="clients" class="wow fadeInUp">
@@ -253,8 +199,8 @@
           <h2 style="text-transform:none">Businesses we serve</h2>
           <!-- <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p> -->
         </div>
-
-        <div class="owl-carousel clients-carousel">
+        <!-- owl-carousel clients-carousel -->
+        <div class="" style="text-align: center;">
           <img src="img/clients/client-1.png" alt="">
           <img src="img/clients/client-2.png" alt="">
           <img src="img/clients/client-3.png" alt="">
@@ -348,7 +294,7 @@
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
             <h3 class="cta-title">Hire Competent Talents now!</h3>
-            <p class="cta-text"> Avoid the high cost of hiring world-class certified talents. <br>Hire at a fraction of the market cost. </p>
+            <p class="cta-text"> Avoid the high cost of hiring world-class talents. <br>Hire at a fraction of the market cost. </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="hire-talents.php">Hire talent now!</a>
@@ -373,7 +319,7 @@
           <div class="col-md-4">
             <div class="contact-address">
               <i class="fa fa-user-plus"></i>
-              <h3>Replicate yourself</h3>
+              <h3>Partner to Train</h3>
               <p>Partner with us to redistribute your skills, and eradicate poverty. </p>
             </div>
           </div>
@@ -381,7 +327,7 @@
           <div class="col-md-4">
             <div class="contact-phone">
               <i class="fa fa-pie-chart"></i>
-              <h3>Redistribute wealth</h3>
+              <h3>Earn some stipends</h3>
               <p>Empower a poor unemployed labour, and help in the redistribution of wealth.</p>
             </div>
           </div>
@@ -389,7 +335,7 @@
           <div class="col-md-4">
             <div class="contact-email">
               <i class="fa fa-certificate"></i>
-              <h3>Become a star</h3>
+              <h3>Increase Track record</h3>
               <p>Make an impact, gain referrals and a badge of honour.</p>
             </div>
           </div>
@@ -400,32 +346,6 @@
           <br>
           <a style="border: 1px solid #0ae6a4; padding: 15px; " href="signup.php" class="">Apply now</a>
       </div>
-      </div>
-    </section>
-
-    <br>
-    <br>
-
-  <hr>
-
-    <section id="clients" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2 style="text-transform:none">Partner Organisations</h2>
-          <!-- <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p> -->
-        </div>
-
-        <div class="owl-carousel clients-carousel">
-          <img src="img/clients/client-1.png" alt="">
-          <img src="img/clients/client-2.png" alt="">
-          <img src="img/clients/client-3.png" alt="">
-          <img src="img/clients/client-4.png" alt="">
-          <img src="img/clients/client-5.png" alt="">
-          <img src="img/clients/client-6.png" alt="">
-          <img src="img/clients/client-7.png" alt="">
-          <img src="img/clients/client-8.png" alt="">
-        </div>
-
       </div>
     </section>
 
