@@ -52,7 +52,7 @@
     if(isset($_POST['regName'])){
         $verifyParam = "`emailaddress` = '$regEmail'";
         $regPassword = md5($regPass);
-        $regParam = "NULL, '$regName', '$regEmail', '$regPassword', '$regPhone', 'Trainer', '$regSkills', '$todaysDate', 'Active'";
+        $regParam = "NULL, '$regName', '$regEmail', '$regPassword', '$regPhone', '$regType', '$regSkills', '$todaysDate', 'Active'";
         $doReg = $crud->createRecord("users", $regParam, $verifyParam);
         $regStatus = decodeJSON($doReg)[0];
         if($regStatus == 200){
@@ -141,18 +141,22 @@
         echo encodeJSON(createArray($deleteStatus, $deleteResponse));
     }
 
-    // Handles Job-seeker registration and request
-    if(isset($_POST['job-seeker'])){
-        $addTraineeParam = "NULL, '$traineeName', '$traineeGender', '$traineeLocation', '$traineeSkill', '$traineePhone', '$todaysDate', 'Active'";
-        $addTrainee = $crud->createRecord("trainee", $addTraineeParam, "`name` = '$traineeName'");
-        $addTraineeStatus = decodeJSON($addTrainee)[0];
-        if($addTraineeStatus == 200){
-            $addTraineeResponse = "Trainee Added Successful";
+    // Handles Adding Talent Request
+    if(isset($_POST['emailAddress'])){
+        $fullName = $firstName ." ". $lastName;
+        $addParam = "NULL, '$businessName', '$fullName', '$phoneNumber', '$emailAddress', '$businessLocation', '$businessDesc', 'Active'";
+        $addTalentReq = $crud->createRecord("request", $addParam);
+        $addTalentStatus = decodeJSON($addTalentReq)[0];
+        if($addTalentStatus == 200){
+            $addTalentResponse = "Talent Request Added Successful";
         }
         else
         {
-            $addTraineeResponse = "Could not complete action";
+            $addTalentResponse = "Could not complete action";
         }
-        echo encodeJSON(createArray($addTraineeStatus, $addTraineeResponse));
+        echo encodeJSON(createArray($addTalentStatus, $addTalentResponse));
     }
+
+    // Handles Adding Job Seekers
+
 ?>

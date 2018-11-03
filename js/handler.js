@@ -87,6 +87,16 @@ function postData(dataToSend, controller) {
                         errorResetForm("deleteTraineesForm", controller);
                     }
                     break;
+                case "hireTalentsBtn":
+                    showAlert("hireTalentsMsgBox", nType, nMsg);
+                    if(nType == "success"){
+                        redirectWindow("", 3000);
+                    }
+                    else
+                    {
+                        errorResetForm("hireTalentsForm", controller);
+                    }
+                    break;
                 default:
                     break;
             }
@@ -178,6 +188,11 @@ $('#updateTraineesForm').submit(function(event){
 $('#deleteTraineesForm').submit(function(event){
     event.preventDefault();
     postData($(this).serialize(), 'deleteTraineeBtn');
+});
+
+$('#hireTalentsForm').submit(function(event){
+    event.preventDefault();
+    postData($(this).serialize(), 'hireTalentsBtn');
 });
 
 // Handles Logout

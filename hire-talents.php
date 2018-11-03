@@ -19,42 +19,41 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <form id="loginForm">
+                <form id="hireTalentsForm">
                     <div class="card p-2" style="margin: auto 0;">
                         <div class="card-header text-center text-uppercase h4 font-weight-light">
-                            <a href="index.php"><img src="img/growstack.png" alt=""></a>
-                            <!-- <span style="color:#00ff00" >growstack</span> -->
+                            <a href="index"><img src="img/growstack.png" alt=""></a>
                             <br><br>Make A  Request                             
                         </div>
 
-                        <div id="loginMsgBox"></div>
+                        <div id="hireTalentsMsgBox"></div>
                         <div class="card-body py-1">
                             <div class="form-group  col-md-12" style="">
-                                <input type="text" name="nameOfBusiness" required placeholder="Name of business" class="form-control">
+                                <input type="text" name="businessName" required placeholder="Name of business" class="form-control">
                             </div>
 
                             <div class="form-group col-md-6" style="float:left;">
-                                <input type="text" name="logintext" required placeholder="First Name" class="form-control">
+                                <input type="text" name="firstName" required placeholder="First Name" class="form-control">
                             </div>
 
                             <div class="form-group col-md-6" style="float:left;">
-                                <input type="text" name="logintext" required placeholder="Last Name" class="form-control">
+                                <input type="text" name="lastName" required placeholder="Last Name" class="form-control">
                             </div>
 
                             <div class="form-group col-md-6" style="float:left;">
-                                <input type="text" name="logintext" required placeholder="Phone" class="form-control">
+                                <input type="text" name="phoneNumber" required placeholder="Phone" class="form-control">
                             </div>
 
                             <div class="form-group col-md-6" style="float:left;">
-                                <input type="email" name="logintext" required placeholder="Email" class="form-control">
+                                <input type="email" name="emailAddress" required placeholder="Email" class="form-control">
                             </div>
 
                             <div class="form-group  col-md-12" style="">
-                                <input type="text" name="logintext" required placeholder="Business location" class="form-control">
+                                <input type="text" name="businessLocation" required placeholder="Business location" class="form-control">
                             </div>
 
                             <div class="form-group  col-md-12" style="">
-                                <textarea name="logintext" required placeholder="Give a full description of what you need" class="form-control"></textarea>
+                                <textarea name="businessDesc" required placeholder="Give a full description of what you need" class="form-control"></textarea>
                             </div>
                         </div>
 
@@ -62,7 +61,7 @@
                             <div class="row">
                                 <div class="col-6">
                                 &nbsp;&nbsp;
-                                    <button type="submit" class="btn btn-primary px-5" id="loginBtn">Submit</button>
+                                    <button type="submit" class="btn btn-primary px-5" id="hireTalentsBtn">Submit</button>
                                 </div>
                             </div>
                         </div>

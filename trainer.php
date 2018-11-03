@@ -19,7 +19,7 @@
                 <form id="signupForm">
                     <div class="card p-2" style="margin:auto 0px;">
                         <div class="card-header text-center text-uppercase h4 font-weight-light">
-                            <a href="index.php"><img src="img/growstack.png" alt=""></a>
+                            <a href="index"><img src="img/growstack.png" alt=""></a>
                             <!-- <span style="color:#00ff00" >growstack</span> -->
                             <br>
                             <br>
@@ -43,7 +43,7 @@
                             <div class="form-group">
                                 <input type="number" name="regPhone" required placeholder="Phone Number" class="form-control">
                             </div>
-
+                            <input type="hidden" name="regType" value="Trainer">
                             <!-- <div class="row"> -->
                                 <!-- <div class="col-md-6">
                                     <div class="form-group">
@@ -76,7 +76,7 @@
                                 </div>
 
                                 <div class="col-6 text-right">
-                                    <a href="login.php" class="btn hlink btn-link">Login</a>
+                                    <a href="login" class="btn hlink btn-link">Login</a>
                                 </div>
                             </div>
                         </div>
