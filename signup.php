@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GrowStack - Signup</title>
+    <title>Become a trainer</title>
     <link rel="stylesheet" href="./vendor/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="./vendor/font-awesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="./css/styles.css">
@@ -21,7 +21,9 @@
                         <div class="card-header text-center text-uppercase h4 font-weight-light">
                             <a href="index.php"><img src="img/growstack.png" alt=""></a>
                             <!-- <span style="color:#00ff00" >growstack</span> -->
-                            <br>Signup                             
+                            <br>
+                            <br>
+                            Become a trainer                             
                         </div>
 
                         <div id="signupMsgBox"></div>
@@ -42,24 +44,27 @@
                                 <input type="number" name="regPhone" required placeholder="Phone Number" class="form-control">
                             </div>
 
-                            <div class="row">
-                                <div class="col-md-6">
+                            <!-- <div class="row"> -->
+                                <!-- <div class="col-md-6">
                                     <div class="form-group">
                                         <select name="regType" class="form-control">
                                             <option disabled >Account Type</option>
                                             <option value="Trainer">Trainer</option>
                                         </select>
                                     </div> 
-                                </div>
-                                <div class="col-md-6">
+                                </div> -->
+                                <!-- <div class="col-md-6"> -->
                                     <div class="form-group">
                                         <select name="regSkills" class="form-control">
-                                            <option disabled>Skills</option>
-                                            <option value="Programming">Programming</option>
+                                            <option disabled selected>--Select skill competence--</option>
+                                            <option value="Ushering">Ushering</option>
+                                            <option value="Cashier">Cashier</option>
+                                            <option value="Cleaning">Cleaning</option>
+                                            <option value="Sales Representative">Sales Representative</option>
                                         </select>
                                     </div> 
-                                </div>
-                            </div>
+                                <!-- </div> -->
+                            <!-- </div> -->
                         </div>
 
                         <div class="card-footer">
