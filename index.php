@@ -48,8 +48,8 @@
           <!-- <li><a href="#portfolio">Portfolio</a></li> -->
           <!-- <li><a href="#team">Team</a></li> -->
           <li><a href="hire-talents.php">Hire Talents</a></li>
-          <li><a href="signup.php">Become a Trainer</a>
-          <li><a href="signup.php">Get a Job</a>
+          <li><a href="trainer.php">Become a Trainer</a>
+          <li><a href="job.php">Get a Job</a>
            </li>
         </ul>
       </nav><!-- #nav-menu-container -->

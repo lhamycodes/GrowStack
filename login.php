@@ -46,9 +46,9 @@
                                     <button type="submit" class="btn btn-primary px-5" id="loginBtn">Login</button>
                                 </div>
 
-                                <div class="col-6 text-right">
+                                <!-- <div class="col-6 text-right">
                                     <a href="forgot-password" class="btn hlink btn-link">Forgot password?</a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
