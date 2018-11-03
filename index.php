@@ -328,7 +328,7 @@
             <div class="contact-phone">
               <i class="fa fa-pie-chart"></i>
               <h3>Earn some stipends</h3>
-              <p>Empower a poor unemployed labour, and help in the redistribution of wealth.</p>
+              <p>Get a little stipends while you help redistribute wealth, and help in the redistribution of wealth.</p>
             </div>
           </div>
 
@@ -336,7 +336,7 @@
             <div class="contact-email">
               <i class="fa fa-certificate"></i>
               <h3>Increase Track record</h3>
-              <p>Make an impact, gain referrals and a badge of honour.</p>
+              <p>Make an impact and earned a badge of honour.</p>
             </div>
           </div>
 

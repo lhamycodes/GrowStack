@@ -140,4 +140,19 @@
         }
         echo encodeJSON(createArray($deleteStatus, $deleteResponse));
     }
+
+    // Handles Job-seeker registration and request
+    if(isset($_POST['job-seeker'])){
+        $addTraineeParam = "NULL, '$traineeName', '$traineeGender', '$traineeLocation', '$traineeSkill', '$traineePhone', '$todaysDate', 'Active'";
+        $addTrainee = $crud->createRecord("trainee", $addTraineeParam, "`name` = '$traineeName'");
+        $addTraineeStatus = decodeJSON($addTrainee)[0];
+        if($addTraineeStatus == 200){
+            $addTraineeResponse = "Trainee Added Successful";
+        }
+        else
+        {
+            $addTraineeResponse = "Could not complete action";
+        }
+        echo encodeJSON(createArray($addTraineeStatus, $addTraineeResponse));
+    }
 ?>
