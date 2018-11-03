@@ -43,7 +43,7 @@
                             <div class="form-group">
                                 <input type="number" name="regPhone" required placeholder="Phone Number" class="form-control">
                             </div>
-
+                            <input type="hidden" name="regType" value="Job Seeker">
                             <!-- <div class="row"> -->
                                 <!-- <div class="col-md-6">
                                     <div class="form-group">
@@ -57,10 +57,12 @@
                                     <div class="form-group">
                                         <select name="regSkills" class="form-control">
                                             <option disabled selected>--Select job type--</option>
-                                            <option value="Ushering">Ushering</option>
-                                            <option value="Cashier">Cashier</option>
-                                            <option value="Cleaning">Cleaning</option>
-                                            <option value="Sales Representative">Sales Representative</option>
+                                            <?php
+                                                include_once "assets/coreFunctions.php";
+                                                for($i = 0; $i < count($skillsToLearn); $i++){
+                                                    echo "<option value='$skillsToLearn[$i]'>$skillsToLearn[$i]</option>";
+                                                }
+                                            ?>
                                         </select>
                                     </div> 
                                 <!-- </div> -->

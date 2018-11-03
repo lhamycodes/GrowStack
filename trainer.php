@@ -43,7 +43,7 @@
                             <div class="form-group">
                                 <input type="number" name="regPhone" required placeholder="Phone Number" class="form-control">
                             </div>
-
+                            <input type="hidden" name="regType" value="Trainer">
                             <!-- <div class="row"> -->
                                 <!-- <div class="col-md-6">
                                     <div class="form-group">
