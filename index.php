@@ -38,19 +38,16 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="index.php" class="scrollto">grow<span>stack</span></a></h1>
+        <h1><a href="index" class="scrollto">grow<span>stack</span></a></h1>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#body">Home</a></li>
-          <!-- <li><a href="#services">About Us</a></li> -->
-          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-          <!-- <li><a href="#team">Team</a></li> -->
-          <li><a href="hire-talents.php">Hire Talents</a></li>
-          <li><a href="signup.php">Become a Trainer</a>
-          <li><a href="signup.php">Get a Job</a>
-           </li>
+          <li><a href="hire-talents">Hire Talents</a></li>
+          <li><a href="signup">Become a Trainer</a>
+          <li><a href="signup">Get a Job</a></li>
+          <li><a href="login">Login</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -65,7 +62,7 @@
       <h2><span>Ready-made on-demand</span><br> workforce for Businesses</h2>
       <!-- <h2>Train for Free, <span>Get a Job</span><br>Pay Later!</h2> -->
       <div>
-        <a href="hire-talents.php" class="btn-get-started scrollto">Hire Talents</a>
+        <a href="hire-talents" class="btn-get-started scrollto">Hire Talents</a>
         <a href="#portfolio" class="btn-get-started scrollto">Get me a job</a>
       </div>
     </div>
@@ -297,7 +294,7 @@
             <p class="cta-text"> Avoid the high cost of hiring world-class talents. <br>Hire at a fraction of the market cost. </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="hire-talents.php">Hire talent now!</a>
+            <a class="cta-btn align-middle" href="hire-talents">Hire talent now!</a>
           </div>
         </div>
   
@@ -344,7 +341,7 @@
 
         <div style="text-align: center">
           <br>
-          <a style="border: 1px solid #0ae6a4; padding: 15px; " href="signup.php" class="">Apply now</a>
+          <a style="border: 1px solid #0ae6a4; padding: 15px; " href="signup" class="">Apply now</a>
       </div>
       </div>
     </section>

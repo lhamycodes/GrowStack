@@ -52,7 +52,7 @@
     if(isset($_POST['regName'])){
         $verifyParam = "`emailaddress` = '$regEmail'";
         $regPassword = md5($regPass);
-        $regParam = "NULL, '$regName', '$regEmail', '$regPassword', '$regPhone', '$regType', '$regSkills', '$todaysDate', 'Active'";
+        $regParam = "NULL, '$regName', '$regEmail', '$regPassword', '$regPhone', 'Trainer', '$regSkills', '$todaysDate', 'Active'";
         $doReg = $crud->createRecord("users", $regParam, $verifyParam);
         $regStatus = decodeJSON($doReg)[0];
         if($regStatus == 200){

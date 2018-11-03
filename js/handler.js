@@ -20,7 +20,7 @@ function postData(dataToSend, controller) {
                 case "loginBtn":
                     showAlert("loginMsgBox", nType, nMsg);
                     if(nType == "success"){
-                        redirectWindow("index");
+                        redirectWindow("dashboard");
                     }
                     else
                     {
@@ -30,7 +30,7 @@ function postData(dataToSend, controller) {
                 case "signupBtn":
                     showAlert("signupMsgBox", nType, nMsg);
                     if(nType == "success"){
-                        redirectWindow("../index", 3000);
+                        redirectWindow("", 3000);
                     }
                     else
                     {
