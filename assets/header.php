@@ -3,8 +3,8 @@
         <i class="fa fa-bars"></i>
     </a>
 
-    <a class="navbar-brand" href="index">
-        growstack
+    <a class="navbar-brand" href="dashboard">
+        <img src="img/growstack.png" alt="" style="width:200px;">
     </a>
 
     <a href="#" class="btn btn-link sidebar-toggle d-md-down-none">

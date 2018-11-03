@@ -57,10 +57,12 @@
                                     <div class="form-group">
                                         <select name="regSkills" class="form-control">
                                             <option disabled selected>--Select skill competence--</option>
-                                            <option value="Ushering">Ushering</option>
-                                            <option value="Cashier">Cashier</option>
-                                            <option value="Cleaning">Cleaning</option>
-                                            <option value="Sales Representative">Sales Representative</option>
+                                            <?php
+                                                include_once "assets/coreFunctions.php";
+                                                for($i = 0; $i < count($skillsToLearn); $i++){
+                                                    echo "<option value='$skillsToLearn[$i]'>$skillsToLearn[$i]</option>";
+                                                }
+                                            ?>
                                         </select>
                                     </div> 
                                 <!-- </div> -->

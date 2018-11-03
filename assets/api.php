@@ -52,7 +52,7 @@
     if(isset($_POST['regName'])){
         $verifyParam = "`emailaddress` = '$regEmail'";
         $regPassword = md5($regPass);
-        $regParam = "NULL, '$regName', '$regEmail', '$regPassword', '$regPhone', '$regType', '$regSkills', '$todaysDate', 'Active'";
+        $regParam = "NULL, '$regName', '$regEmail', '$regPassword', '$regPhone', 'Trainer', '$regSkills', '$todaysDate', 'Active'";
         $doReg = $crud->createRecord("users", $regParam, $verifyParam);
         $regStatus = decodeJSON($doReg)[0];
         if($regStatus == 200){
@@ -109,5 +109,35 @@
             $addTraineeResponse = "Could not complete action";
         }
         echo encodeJSON(createArray($addTraineeStatus, $addTraineeResponse));
+    }
+
+    // Handles Updating Trainee Info
+    if(isset($_POST['editTraineeID'])){
+        $updateParam = "`phone` = '$editTraineePhone', `skill` = '$editTraineeSkill' WHERE `id` = '$editTraineeID'";
+        $updateTrainersProfile = $crud->updateRecord("trainee", $updateParam);
+        $updateStatus = decodeJSON($updateTrainersProfile)[0];
+        if($updateStatus == 200){
+            $updateResponse = "Profile Updated Successfully";
+        }
+        else
+        {
+            $updateResponse = "Could Not Complete Action";
+        }
+        echo encodeJSON(createArray($updateStatus, $updateResponse));
+    }
+
+    // Handles Deleting Trainee Info
+    if(isset($_POST['delTrainee'])){
+        $deleteParam = "`status` = 'Suspended' WHERE `id` = '$delTrainee'";
+        $deleteTraineesProfile = $crud->updateRecord("trainee", $deleteParam);
+        $deleteStatus = decodeJSON($deleteTraineesProfile)[0];
+        if($deleteStatus == 200){
+            $deleteResponse = "Profile Deleted Successfully";
+        }
+        else
+        {
+            $deleteResponse = "Could Not Complete Action";
+        }
+        echo encodeJSON(createArray($deleteStatus, $deleteResponse));
     }
 ?>

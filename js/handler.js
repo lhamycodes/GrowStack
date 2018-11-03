@@ -20,7 +20,7 @@ function postData(dataToSend, controller) {
                 case "loginBtn":
                     showAlert("loginMsgBox", nType, nMsg);
                     if(nType == "success"){
-                        redirectWindow("index");
+                        redirectWindow("dashboard");
                     }
                     else
                     {
@@ -30,7 +30,7 @@ function postData(dataToSend, controller) {
                 case "signupBtn":
                     showAlert("signupMsgBox", nType, nMsg);
                     if(nType == "success"){
-                        redirectWindow("../index", 3000);
+                        redirectWindow("", 3000);
                     }
                     else
                     {
@@ -65,6 +65,26 @@ function postData(dataToSend, controller) {
                     else
                     {
                         errorResetForm("addTraineeForm", controller);
+                    }
+                    break;
+                case "updateTraineesBtn":
+                    showAlert("updTraineesMsgBox", nType, nMsg);
+                    if(nType == "success"){
+                        redirectWindow("", 3000);
+                    }
+                    else
+                    {
+                        errorResetForm("updateTraineesForm", controller);
+                    }
+                    break;
+                case "deleteTraineeBtn":
+                    showAlert("deleteTraineesMsgBox", nType, nMsg);
+                    if(nType == "success"){
+                        redirectWindow("", 3000);
+                    }
+                    else
+                    {
+                        errorResetForm("deleteTraineesForm", controller);
                     }
                     break;
                 default:
@@ -146,6 +166,18 @@ $('#deleteTrainersForm').submit(function(event){
 $('#addTraineeForm').submit(function(event){
     event.preventDefault();
     postData($(this).serialize(), 'addTraineeBtn');
+});
+
+// Handles Update Trainees Form
+$('#updateTraineesForm').submit(function(event){
+    event.preventDefault();
+    postData($(this).serialize(), 'updateTraineesBtn');
+});
+
+// Handles Deleting Trainers Form
+$('#deleteTraineesForm').submit(function(event){
+    event.preventDefault();
+    postData($(this).serialize(), 'deleteTraineeBtn');
 });
 
 // Handles Logout

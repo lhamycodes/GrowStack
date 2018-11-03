@@ -58,7 +58,7 @@
                                                     $index = $i +1;
                                                     $traineesID = $fetchResponse[$i]->{'id'};
                                                     $traineesName = $fetchResponse[$i]->{'name'};
-                                                    $traineesEmail = $fetchResponse[$i]->{'location'};
+                                                    $traineesLocation = $fetchResponse[$i]->{'location'};
                                                     $traineesSkill = $fetchResponse[$i]->{'skill'};
                                                     $traineesPhone = $fetchResponse[$i]->{'phone'};
 
@@ -66,8 +66,8 @@
                                                         <td>$index</td>
                                                         <td>$traineesName</td>                                                        
                                                         <td>$traineesSkill</td>
-                                                        <td><a href='mailto:$traineesEmail' class='hlink'>$traineesEmail</a></td>";
-                                                        echo '<td class="text-center"><a href="" data-id="'.$traineesID.'" data-name="'.$traineesName.'" data-email="'.$traineesEmail.'" data-phone="'.$traineesPhone.'" data-skill="'.$traineesSkill.'" class="editTrainer hlink" data-toggle="modal" data-target="#editTrainerModal">Edit</a>&emsp;<a href="" data-id="'.$traineesID.'" class="deleteTrainer hlink" data-toggle="modal" data-target="#deleteTrainerModal">Delete</a></td>
+                                                        <td>$traineesLocation</td>";
+                                                        echo '<td class="text-center"><a href="" data-id="'.$traineesID.'" data-name="'.$traineesName.'" data-email="'.$traineesLocation.'" data-phone="'.$traineesPhone.'" data-skill="'.$traineesSkill.'" class="editTrainer hlink" data-toggle="modal" data-target="#editTrainerModal">Edit</a>&emsp;<a href="" data-id="'.$traineesID.'" class="deleteTrainer hlink" data-toggle="modal" data-target="#deleteTraineeModal">Delete</a></td>
                                                         </tr>';
                                                 }
                                             }
@@ -96,34 +96,34 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header bg-primary border-0">
-                    <h5 class="modal-title text-white">Edit Trainer</h5>
+                    <h5 class="modal-title text-white">Edit Trainee</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
 
                 <form id="updateTraineesForm">
-                    <input type="hidden" name="editTrainerID" id="editTrainerID">
+                    <input type="hidden" name="editTraineeID" id="editTraineeID">
                     <div id="updTraineesMsgBox"></div>
                     <div class="modal-body p-3">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label class="m-b-15 f-s-12">Trainer Name </label>
-                                <input type="text" id="editTrainerName" disabled class="form-control input-flat " placeholder="Name">
+                                <label class="m-b-15 f-s-12">Trainee Name </label>
+                                <input type="text" id="editTraineeName" disabled class="form-control input-flat " placeholder="Name">
                             </div>
                             <div class="form-group col-md-6">
-                                <label class="m-b-15 f-s-12">Trainer Email </label>
-                                <input type="text" id="editTrainerEmail" disabled class="form-control input-flat " placeholder="Email">
+                                <label class="m-b-15 f-s-12">Trainee Location </label>
+                                <input type="text" id="editTraineeLocation" disabled class="form-control input-flat " placeholder="Location">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label class="m-b-15 f-s-12">Phone Number </label>
-                                <input type="text" name="editTrainerPhone" id="editTrainerPhone" required class="form-control input-flat " placeholder="Phone Number">
+                                <input type="text" name="editTraineePhone" id="editTraineePhone" required class="form-control input-flat " placeholder="Phone Number">
                             </div>
                             <div class="form-group col-md-6">
                                 <label class="m-b-15 f-s-12">SKill / Specialty </label>
-                                <select name="editTrainerSkill" id="editTrainerSkill" class="form-control input-flat ">
+                                <select name="editTraineeSkill" id="editTraineeSkill" class="form-control input-flat ">
                                     <?php
                                         for($i = 0; $i < count($skillsToLearn); $i++){
                                             echo "<option value='$skillsToLearn[$i]'>$skillsToLearn[$i]</option>";
@@ -136,14 +136,14 @@
 
                     <div class="modal-footer border-0">
                         <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary" id="updateTrainersBtn">Update</button>
+                        <button type="submit" class="btn btn-primary" id="updateTraineesBtn">Update</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="deleteTrainerModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal fade" id="deleteTraineeModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header bg-danger border-0">
@@ -153,16 +153,16 @@
                     </button>
                 </div>
 
-                <form id="deleteTrainersForm">
-                    <div id="deleteTrainersMsgBox"></div>
+                <form id="deleteTraineesForm">
+                    <div id="deleteTraineesMsgBox"></div>
                     <div class="modal-body text-center py-5">
-                        Are you sure you want to delete this Trainer from GrowStack ?
-                        <input type="hidden" name="delTrainer" id="delTrainer">
+                        Are you sure you want to delete this Trainee from GrowStack ?
+                        <input type="hidden" name="delTrainee" id="delTrainee">
                     </div>
 
                     <div class="modal-footer border-0">
                         <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-danger" id="deleteTrainerBtn">Delete</button>
+                        <button type="submit" class="btn btn-danger" id="deleteTraineeBtn">Delete</button>
                     </div>
                 </form>
             </div>
@@ -193,11 +193,11 @@
             var dataCopies = $(this).data('phone');
             var dataISBN = $(this).data('skill');            
 
-            var bi = $('#editTrainerID');
-            var bn = $('#editTrainerName');
-            var ba = $('#editTrainerEmail');
-            var bc = $('#editTrainerPhone');
-            var bs = $('#editTrainerSkill');                  
+            var bi = $('#editTraineeID');
+            var bn = $('#editTraineeName');
+            var ba = $('#editTraineeLocation');
+            var bc = $('#editTraineePhone');
+            var bs = $('#editTraineeSkill');                  
 
             bi.val(dataID);
             bn.val(dataName);
@@ -209,7 +209,7 @@
         $('.deleteTrainer').click(function(event){
             event.preventDefault();
             var dataID = $(this).data('id');            
-            var di = $('#delTrainer');
+            var di = $('#delTrainee');
             di.val(dataID);            
         });
     </script>
