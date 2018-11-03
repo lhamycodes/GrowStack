@@ -47,7 +47,7 @@
           <li><a href="hire-talents">Hire Talents</a></li>
           <li><a href="signup">Become a Trainer</a>
           <li><a href="signup">Get a Job</a></li>
-          <li><a href="login">Login</a></li>
+          <li><a href="dashboard">Login</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
