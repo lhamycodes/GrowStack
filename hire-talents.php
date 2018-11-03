@@ -23,7 +23,6 @@
                     <div class="card p-2" style="margin: auto 0;">
                         <div class="card-header text-center text-uppercase h4 font-weight-light">
                             <a href="index.php"><img src="img/growstack.png" alt=""></a>
-                            <!-- <span style="color:#00ff00" >growstack</span> -->
                             <br><br>Make A  Request                             
                         </div>
 
@@ -34,11 +33,11 @@
                             </div>
 
                             <div class="form-group col-md-6" style="float:left;">
-                                <input type="text" name="logintext" required placeholder="First Name" class="form-control">
+                                <input type="text" name="firstName" required placeholder="First Name" class="form-control">
                             </div>
 
                             <div class="form-group col-md-6" style="float:left;">
-                                <input type="text" name="logintext" required placeholder="Last Name" class="form-control">
+                                <input type="text" name="lastName" required placeholder="Last Name" class="form-control">
                             </div>
 
                             <div class="form-group col-md-6" style="float:left;">
