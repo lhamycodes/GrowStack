@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GrowStack - Login</title>
+    <title>GrowStack - Hire Talents</title>
     <link rel="stylesheet" href="./vendor/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="./vendor/font-awesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="./css/styles.css">
@@ -30,7 +30,7 @@
                         <div id="loginMsgBox"></div>
                         <div class="card-body py-1">
                             <div class="form-group  col-md-12" style="">
-                                <input type="text" name="logintext" required placeholder="Name of business" class="form-control">
+                                <input type="text" name="nameOfBusiness" required placeholder="Name of business" class="form-control">
                             </div>
 
                             <div class="form-group col-md-6" style="float:left;">
@@ -48,6 +48,7 @@
                             <div class="form-group col-md-6" style="float:left;">
                                 <input type="email" name="logintext" required placeholder="Email" class="form-control">
                             </div>
+
                             <div class="form-group  col-md-12" style="">
                                 <input type="text" name="logintext" required placeholder="Business location" class="form-control">
                             </div>

@@ -5,7 +5,7 @@
 
             <!-- Dashboard -->
             <li class="nav-item">
-                <a href="index" class="nav-link active">
+                <a href="dashboard" class="nav-link active">
                     <i class="icon icon-speedometer"></i> Dashboard
                 </a>
             </li>

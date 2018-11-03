@@ -61,5 +61,5 @@
         }
     }
 
-    $skillsToLearn = array('Speaking', 'Writing', 'Productivity', 'Book Keeping', 'Branding', 'Digital Marketing', 'Web Development', 'App Development', 'Project Management', 'Product Management', 'Social Media', 'Web Analytics', 'Call Centre');
+    $skillsToLearn = array('Ushering', 'Cashier', 'Cleaning', 'Sales Representative');
 ?>
