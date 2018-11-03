@@ -854,8 +854,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #50d8af;
   /* background: #081e5b; */
   background-size: cover;
-  padding: 120px 0;
-  min-height: 350px;
+  padding: 90px 0;
+  min-height: 280px;
 }
 
 #call-to-action .cta-title {

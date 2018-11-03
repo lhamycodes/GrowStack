@@ -23,7 +23,7 @@
                             <!-- <span style="color:#00ff00" >growstack</span> -->
                             <br>
                             <br>
-                            Become a trainer                             
+                            Become a volunteer                             
                         </div>
 
                         <div id="signupMsgBox"></div>

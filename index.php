@@ -48,7 +48,7 @@
           <!-- <li><a href="#portfolio">Portfolio</a></li> -->
           <!-- <li><a href="#team">Team</a></li> -->
           <li><a href="hire-talents">Hire Talents</a></li>
-          <li><a href="trainer">Become a Trainer</a>
+          <li><a href="trainer">Become a volunteer</a>
           <li><a href="job">Get a Job</a>
            </li>
         </ul>
@@ -95,7 +95,7 @@
 
         <div class="row" style="text-align: center;">
 
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="box wow fadeIn">
               <!-- <div class="icon"><i class="fa fa-bar-chart"></i></div> -->
               <h4 class="title"><a href="">Ushers</a></h4>
@@ -103,7 +103,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="box wow fadeIn">
               <!-- <div class="icon"><i class="fa fa-picture-o"></i></div> -->
               <h4 class="title"><a href="">Cashiers</a></h4>
@@ -111,7 +111,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="box wow fadeIn" data-wow-delay="0.2s">
               <!-- <div class="icon"><i class="fa fa-shopping-bag"></i></div> -->
               <h4 class="title"><a href="">Cleaners</a></h4>
@@ -119,23 +119,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="box wow fadeInRight" data-wow-delay="0.2s">
-              <!-- <div class="icon"><i class="fa fa-map"></i></div> -->
-              <h4 class="title"><a href="">Sales representatives</a></h4>
-              <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="box wow fadeIn" data-wow-delay="0.2s">
-              <!-- <div class="icon"><i class="fa fa-shopping-bag"></i></div> -->
-              <h4 class="title"><a href="">Office clerk</a></h4>
-              <!-- <p class="description">We offer our best talents to businesses at a more affordable cost, within the shortest time. <br><br></p> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
               <!-- <div class="icon"><i class="fa fa-map"></i></div> -->
               <h4 class="title"><a href="">Sales representatives</a></h4>
@@ -293,7 +277,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Hire Competent Talents now!</h3>
+            <h3 class="cta-title">Hire World Class Talents now!</h3>
             <p class="cta-text"> Avoid the high cost of hiring world-class talents. <br>Hire at a fraction of the market cost. </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
@@ -311,7 +295,7 @@
     <section id="contact" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2 style="text-transform:none">Become a Trainer</h2>
+          <h2 style="text-transform:none">Volunteer to Become a Trainer</h2>
         </div>
 
         <div class="row contact-info">
@@ -326,7 +310,7 @@
 
           <div class="col-md-4">
             <div class="contact-phone">
-              <i class="fa fa-pie-chart"></i>
+              <i class="fa fa-credit-card"></i>
               <h3>Earn some stipends</h3>
               <p>Get a little stipends while you help redistribute wealth, and help in the redistribution of wealth.</p>
             </div>
@@ -334,7 +318,7 @@
 
           <div class="col-md-4">
             <div class="contact-email">
-              <i class="fa fa-certificate"></i>
+              <i class="fa fa-signal"></i>
               <h3>Increase Track record</h3>
               <p>Make an impact and earned a badge of honour.</p>
             </div>
@@ -345,7 +329,10 @@
         <div style="text-align: center">
           <br>
           <a style="border: 1px solid #0ae6a4; padding: 15px; " href="signup" class="">Apply now</a>
-      </div>
+        </div>
+        <br>
+        <br>
+
       </div>
     </section>
 
