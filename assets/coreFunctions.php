@@ -41,12 +41,12 @@
         $mail->isSMTP();                                            // Set mailer to use SMTP
         $mail->Host = 'mail.rccgyp1.com';                           // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                                     // Enable SMTP authentication
-        $mail->Username = 'no-reply@rccgyp1.com';                   // SMTP username
-        $mail->Password = 'noreply4rccgyp1';                        // SMTP password
+        $mail->Username = 'noreply@rccgyp1.com';                   // SMTP username
+        $mail->Password = 'hello';                                       // SMTP password
         $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
-        $mail->Port = 26;                                          // TCP port to connect to
+        $mail->Port = 26;                                           // TCP port to connect to
 
-        $mail->setFrom('no-reply@rccgyp1.com', 'RCCG YP1');
+        $mail->setFrom('noreply@rccgyp1.com', 'RCCG YP1');
         $mail->addAddress($to);                                     // Add a recipient
 
         $mail->isHTML(true);                                        // Set email format to HTML
